@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 using System.Text.RegularExpressions;
 
 namespace Ex8
@@ -7,6 +8,7 @@ namespace Ex8
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
             Regex regexName = new Regex("^[А-Я][а-я]+$");
             Regex regexAge = new Regex("^[0-9]+$");
             Console.WriteLine("Введите имя первого человека");

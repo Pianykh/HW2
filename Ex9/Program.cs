@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Ex9
 {
@@ -6,6 +7,7 @@ namespace Ex9
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
             bool engine = true;
             Random random = new Random();
             do

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace Seventh
 {
@@ -6,6 +7,7 @@ namespace Seventh
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
             Console.WriteLine("Введите данные");      
              
             var data = Console.ReadLine();

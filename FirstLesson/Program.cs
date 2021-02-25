@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Text;
 
 namespace FirstLesson
 {
@@ -6,6 +7,7 @@ namespace FirstLesson
     {
         static void Main(string[] args)
         {
+            Console.InputEncoding = Encoding.Unicode;
             Console.WriteLine("Введите температуру");
             int temp = Convert.ToInt32(Console.ReadLine());
             if (temp > -21 && temp < 6)
